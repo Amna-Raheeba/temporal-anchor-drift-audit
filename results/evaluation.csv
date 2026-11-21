@@ -1,0 +1,13 @@
+stage,strategy,n,mae_days,median_abs_error_days,exact_rate,catastrophic_rate,max_abs_error_days
+part1,note_date,778,6.1131,4.0000,0.3548,0.3792,23
+part1,admission,778,7.2326,6.0000,0.2931,0.4447,28
+part1,procedure,778,4.5270,3.0000,0.3162,0.2481,21
+part1,discharge,778,5.8111,4.0000,0.2468,0.3548,22
+part1,section_aware,778,0.3226,0.0000,0.9589,0.0180,18
+part1,oracle,778,0.0000,0.0000,1.0000,0.0000,0
+part2,note_date,686,7.2376,6.0000,0.2595,0.4344,36
+part2,admission,686,7.5364,6.0000,0.2216,0.4271,53
+part2,procedure,686,5.1662,3.0000,0.2770,0.2668,45
+part2,discharge,686,6.8601,5.0000,0.1968,0.4052,37
+part2,section_aware,686,2.1283,0.0000,0.6385,0.1006,36
+part2,oracle,686,2.4548,0.0000,0.6953,0.0933,53
