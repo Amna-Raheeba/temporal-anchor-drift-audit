@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-anchor-drift-audit"
+version = "0.1.0"
+description = "An audit of temporal anchor assumptions in clinical NLP: seeded multi-anchor notes, anchor-resolution strategies scored by timeline error in days, an anchor-confusion matrix, and a summarisation-drift stage that measures what paraphrase does to relative time expressions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["temporal_anchor"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
