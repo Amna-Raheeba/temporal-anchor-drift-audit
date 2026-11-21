@@ -1,0 +1,56 @@
+{
+  "case_id": "case-001",
+  "anchors": {
+    "admission": "2025-10-02",
+    "procedure": "2025-10-07",
+    "discharge": "2025-10-11",
+    "note": "2025-10-12"
+  },
+  "expressions": [
+    {
+      "expr_id": "e1",
+      "event": "first ambulation",
+      "section": "history",
+      "kind": "before_surgery",
+      "text": "2 days before surgery",
+      "true_anchor": "procedure",
+      "true_date": "2025-10-05"
+    },
+    {
+      "expr_id": "e2",
+      "event": "fever onset",
+      "section": "operative",
+      "kind": "post_op_day",
+      "text": "post-op day 9",
+      "true_anchor": "procedure",
+      "true_date": "2025-10-16"
+    },
+    {
+      "expr_id": "e3",
+      "event": "symptom onset",
+      "section": "discharge_plan",
+      "kind": "after_discharge",
+      "text": "12 days after discharge",
+      "true_anchor": "discharge",
+      "true_date": "2025-10-23"
+    },
+    {
+      "expr_id": "e4",
+      "event": "antibiotic start",
+      "section": "history",
+      "kind": "before_surgery",
+      "text": "3 days before surgery",
+      "true_anchor": "procedure",
+      "true_date": "2025-10-04"
+    },
+    {
+      "expr_id": "e5",
+      "event": "consult placed",
+      "section": "hospital_course",
+      "kind": "hospital_day",
+      "text": "hospital day 7",
+      "true_anchor": "admission",
+      "true_date": "2025-10-08"
+    }
+  ]
+}

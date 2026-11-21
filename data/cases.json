@@ -1,0 +1,2701 @@
+[
+  {
+    "case_id": "case-001",
+    "anchors": {
+      "admission": "2025-10-02",
+      "procedure": "2025-10-07",
+      "discharge": "2025-10-11",
+      "note": "2025-10-12"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "first ambulation",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-05"
+      },
+      {
+        "expr_id": "e2",
+        "event": "fever onset",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 9",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-16"
+      },
+      {
+        "expr_id": "e3",
+        "event": "symptom onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "12 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-10-23"
+      },
+      {
+        "expr_id": "e4",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-04"
+      },
+      {
+        "expr_id": "e5",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-10-08"
+      }
+    ]
+  },
+  {
+    "case_id": "case-002",
+    "anchors": {
+      "admission": "2025-02-14",
+      "procedure": "2025-02-17",
+      "discharge": "2025-03-05",
+      "note": "2025-03-06"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-02-20"
+      },
+      {
+        "expr_id": "e2",
+        "event": "wound check",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 14",
+        "true_anchor": "admission",
+        "true_date": "2025-02-27"
+      },
+      {
+        "expr_id": "e3",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-19"
+      },
+      {
+        "expr_id": "e4",
+        "event": "first ambulation",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "10 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-02-24"
+      },
+      {
+        "expr_id": "e5",
+        "event": "symptom onset",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-15"
+      },
+      {
+        "expr_id": "e6",
+        "event": "antibiotic start",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 10",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-27"
+      }
+    ]
+  },
+  {
+    "case_id": "case-003",
+    "anchors": {
+      "admission": "2025-08-15",
+      "procedure": "2025-08-24",
+      "discharge": "2025-08-27",
+      "note": "2025-08-27"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "medication change",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 30 days",
+        "true_anchor": "note",
+        "true_date": "2025-09-26"
+      },
+      {
+        "expr_id": "e2",
+        "event": "wound check",
+        "section": "history",
+        "kind": "ago",
+        "text": "8 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-08-19"
+      },
+      {
+        "expr_id": "e3",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 5",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-29"
+      },
+      {
+        "expr_id": "e4",
+        "event": "consult placed",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "4 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-08-31"
+      },
+      {
+        "expr_id": "e5",
+        "event": "suture removal",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 12 days",
+        "true_anchor": "note",
+        "true_date": "2025-09-08"
+      },
+      {
+        "expr_id": "e6",
+        "event": "pain review",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Tuesday",
+        "true_anchor": "note",
+        "true_date": "2025-08-26"
+      }
+    ]
+  },
+  {
+    "case_id": "case-004",
+    "anchors": {
+      "admission": "2025-06-12",
+      "procedure": "2025-06-17",
+      "discharge": "2025-06-22",
+      "note": "2025-06-22"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 6",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-23"
+      },
+      {
+        "expr_id": "e2",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 9",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-26"
+      },
+      {
+        "expr_id": "e3",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 14",
+        "true_anchor": "admission",
+        "true_date": "2025-06-25"
+      },
+      {
+        "expr_id": "e4",
+        "event": "suture removal",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 27 days",
+        "true_anchor": "note",
+        "true_date": "2025-07-19"
+      },
+      {
+        "expr_id": "e5",
+        "event": "symptom onset",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-16"
+      },
+      {
+        "expr_id": "e6",
+        "event": "wound check",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "4 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-06-16"
+      },
+      {
+        "expr_id": "e7",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "ago",
+        "text": "1 day ago",
+        "true_anchor": "note",
+        "true_date": "2025-06-21"
+      },
+      {
+        "expr_id": "e8",
+        "event": "medication change",
+        "section": "history",
+        "kind": "ago",
+        "text": "10 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-06-12"
+      }
+    ]
+  },
+  {
+    "case_id": "case-005",
+    "anchors": {
+      "admission": "2025-05-06",
+      "procedure": "2025-05-14",
+      "discharge": "2025-05-15",
+      "note": "2025-05-17"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "ago",
+        "text": "11 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-05-06"
+      },
+      {
+        "expr_id": "e2",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "8 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-05-14"
+      },
+      {
+        "expr_id": "e3",
+        "event": "medication change",
+        "section": "history",
+        "kind": "ago",
+        "text": "5 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-05-12"
+      },
+      {
+        "expr_id": "e4",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 9",
+        "true_anchor": "admission",
+        "true_date": "2025-05-14"
+      },
+      {
+        "expr_id": "e5",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "ago",
+        "text": "1 day ago",
+        "true_anchor": "note",
+        "true_date": "2025-05-16"
+      }
+    ]
+  },
+  {
+    "case_id": "case-006",
+    "anchors": {
+      "admission": "2025-04-19",
+      "procedure": "2025-04-21",
+      "discharge": "2025-04-24",
+      "note": "2025-04-24"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "wound check",
+        "section": "history",
+        "kind": "ago",
+        "text": "9 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-04-15"
+      },
+      {
+        "expr_id": "e2",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 3",
+        "true_anchor": "admission",
+        "true_date": "2025-04-21"
+      },
+      {
+        "expr_id": "e3",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "5 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-04-24"
+      },
+      {
+        "expr_id": "e4",
+        "event": "medication change",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 9",
+        "true_anchor": "admission",
+        "true_date": "2025-04-27"
+      },
+      {
+        "expr_id": "e5",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Sunday",
+        "true_anchor": "note",
+        "true_date": "2025-04-20"
+      }
+    ]
+  },
+  {
+    "case_id": "case-007",
+    "anchors": {
+      "admission": "2025-09-26",
+      "procedure": "2025-10-01",
+      "discharge": "2025-10-03",
+      "note": "2025-10-05"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "5 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-09-30"
+      },
+      {
+        "expr_id": "e2",
+        "event": "first ambulation",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "4 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-10-07"
+      },
+      {
+        "expr_id": "e3",
+        "event": "wound check",
+        "section": "history",
+        "kind": "ago",
+        "text": "10 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-09-25"
+      },
+      {
+        "expr_id": "e4",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 1",
+        "true_anchor": "admission",
+        "true_date": "2025-09-26"
+      },
+      {
+        "expr_id": "e5",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-03"
+      },
+      {
+        "expr_id": "e6",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "4 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-09-30"
+      },
+      {
+        "expr_id": "e7",
+        "event": "fever onset",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "4 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-09-30"
+      },
+      {
+        "expr_id": "e8",
+        "event": "pain review",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-09-30"
+      }
+    ]
+  },
+  {
+    "case_id": "case-008",
+    "anchors": {
+      "admission": "2025-03-18",
+      "procedure": "2025-03-26",
+      "discharge": "2025-04-07",
+      "note": "2025-04-08"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 11",
+        "true_anchor": "admission",
+        "true_date": "2025-03-28"
+      },
+      {
+        "expr_id": "e2",
+        "event": "medication change",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 6",
+        "true_anchor": "admission",
+        "true_date": "2025-03-23"
+      },
+      {
+        "expr_id": "e3",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "10 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-03-29"
+      },
+      {
+        "expr_id": "e4",
+        "event": "blood transfusion",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Friday",
+        "true_anchor": "note",
+        "true_date": "2025-04-04"
+      },
+      {
+        "expr_id": "e5",
+        "event": "fever onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "15 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-04-22"
+      },
+      {
+        "expr_id": "e6",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "5 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-04-03"
+      },
+      {
+        "expr_id": "e7",
+        "event": "antibiotic start",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 5 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-05-13"
+      }
+    ]
+  },
+  {
+    "case_id": "case-009",
+    "anchors": {
+      "admission": "2025-06-18",
+      "procedure": "2025-06-22",
+      "discharge": "2025-07-05",
+      "note": "2025-07-05"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "antibiotic start",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 10 days",
+        "true_anchor": "note",
+        "true_date": "2025-07-15"
+      },
+      {
+        "expr_id": "e2",
+        "event": "fever onset",
+        "section": "history",
+        "kind": "ago",
+        "text": "9 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-06-26"
+      },
+      {
+        "expr_id": "e3",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-24"
+      },
+      {
+        "expr_id": "e4",
+        "event": "imaging study",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "10 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-07-15"
+      },
+      {
+        "expr_id": "e5",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Sunday",
+        "true_anchor": "note",
+        "true_date": "2025-06-29"
+      },
+      {
+        "expr_id": "e6",
+        "event": "blood transfusion",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-21"
+      },
+      {
+        "expr_id": "e7",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "13 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-07-01"
+      }
+    ]
+  },
+  {
+    "case_id": "case-010",
+    "anchors": {
+      "admission": "2025-07-07",
+      "procedure": "2025-07-08",
+      "discharge": "2025-07-28",
+      "note": "2025-07-29"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "imaging study",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "10 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-08-07"
+      },
+      {
+        "expr_id": "e2",
+        "event": "wound check",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 4 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-08-26"
+      },
+      {
+        "expr_id": "e3",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-06"
+      },
+      {
+        "expr_id": "e4",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 6",
+        "true_anchor": "admission",
+        "true_date": "2025-07-12"
+      },
+      {
+        "expr_id": "e5",
+        "event": "pain review",
+        "section": "history",
+        "kind": "ago",
+        "text": "5 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-07-24"
+      },
+      {
+        "expr_id": "e6",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "13 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-07-20"
+      },
+      {
+        "expr_id": "e7",
+        "event": "antibiotic start",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 14",
+        "true_anchor": "admission",
+        "true_date": "2025-07-20"
+      }
+    ]
+  },
+  {
+    "case_id": "case-011",
+    "anchors": {
+      "admission": "2025-06-03",
+      "procedure": "2025-06-14",
+      "discharge": "2025-06-21",
+      "note": "2025-06-21"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-11"
+      },
+      {
+        "expr_id": "e2",
+        "event": "fever onset",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "12 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-06-15"
+      },
+      {
+        "expr_id": "e3",
+        "event": "symptom onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "3 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-06-24"
+      },
+      {
+        "expr_id": "e4",
+        "event": "consult placed",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 25 days",
+        "true_anchor": "note",
+        "true_date": "2025-07-16"
+      },
+      {
+        "expr_id": "e5",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "ago",
+        "text": "8 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-06-13"
+      },
+      {
+        "expr_id": "e6",
+        "event": "blood transfusion",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 1",
+        "true_anchor": "procedure",
+        "true_date": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "case_id": "case-012",
+    "anchors": {
+      "admission": "2025-01-30",
+      "procedure": "2025-02-11",
+      "discharge": "2025-02-13",
+      "note": "2025-02-13"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "5 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-02-04"
+      },
+      {
+        "expr_id": "e2",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-02-05"
+      },
+      {
+        "expr_id": "e3",
+        "event": "pain review",
+        "section": "history",
+        "kind": "ago",
+        "text": "7 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-02-06"
+      },
+      {
+        "expr_id": "e4",
+        "event": "wound check",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 5",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-16"
+      },
+      {
+        "expr_id": "e5",
+        "event": "suture removal",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "17 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-03-02"
+      },
+      {
+        "expr_id": "e6",
+        "event": "blood transfusion",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-13"
+      },
+      {
+        "expr_id": "e7",
+        "event": "symptom onset",
+        "section": "history",
+        "kind": "ago",
+        "text": "1 day ago",
+        "true_anchor": "note",
+        "true_date": "2025-02-12"
+      },
+      {
+        "expr_id": "e8",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "ago",
+        "text": "10 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-02-03"
+      }
+    ]
+  },
+  {
+    "case_id": "case-013",
+    "anchors": {
+      "admission": "2025-01-14",
+      "procedure": "2025-01-27",
+      "discharge": "2025-02-04",
+      "note": "2025-02-05"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "first ambulation",
+        "section": "history",
+        "kind": "ago",
+        "text": "8 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-01-28"
+      },
+      {
+        "expr_id": "e2",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 3",
+        "true_anchor": "admission",
+        "true_date": "2025-01-16"
+      },
+      {
+        "expr_id": "e3",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 10",
+        "true_anchor": "admission",
+        "true_date": "2025-01-23"
+      },
+      {
+        "expr_id": "e4",
+        "event": "consult placed",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-01-24"
+      },
+      {
+        "expr_id": "e5",
+        "event": "fever onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "10 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-02-14"
+      },
+      {
+        "expr_id": "e6",
+        "event": "antibiotic start",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 8",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-04"
+      }
+    ]
+  },
+  {
+    "case_id": "case-014",
+    "anchors": {
+      "admission": "2025-03-15",
+      "procedure": "2025-03-18",
+      "discharge": "2025-03-19",
+      "note": "2025-03-19"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "11 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-03-08"
+      },
+      {
+        "expr_id": "e2",
+        "event": "imaging study",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 8 days",
+        "true_anchor": "note",
+        "true_date": "2025-03-27"
+      },
+      {
+        "expr_id": "e3",
+        "event": "wound check",
+        "section": "history",
+        "kind": "ago",
+        "text": "6 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-03-13"
+      },
+      {
+        "expr_id": "e4",
+        "event": "pain review",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-16"
+      },
+      {
+        "expr_id": "e5",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 4",
+        "true_anchor": "admission",
+        "true_date": "2025-03-18"
+      },
+      {
+        "expr_id": "e6",
+        "event": "fever onset",
+        "section": "history",
+        "kind": "ago",
+        "text": "12 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-03-07"
+      },
+      {
+        "expr_id": "e7",
+        "event": "medication change",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 5",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-23"
+      }
+    ]
+  },
+  {
+    "case_id": "case-015",
+    "anchors": {
+      "admission": "2025-01-21",
+      "procedure": "2025-01-22",
+      "discharge": "2025-02-01",
+      "note": "2025-02-02"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "ago",
+        "text": "5 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-01-28"
+      },
+      {
+        "expr_id": "e2",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 12",
+        "true_anchor": "admission",
+        "true_date": "2025-02-01"
+      },
+      {
+        "expr_id": "e3",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-01-24"
+      },
+      {
+        "expr_id": "e4",
+        "event": "medication change",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 5 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-03-09"
+      },
+      {
+        "expr_id": "e5",
+        "event": "drain removal",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 8 days",
+        "true_anchor": "note",
+        "true_date": "2025-02-10"
+      },
+      {
+        "expr_id": "e6",
+        "event": "wound check",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "8 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-01-29"
+      }
+    ]
+  },
+  {
+    "case_id": "case-016",
+    "anchors": {
+      "admission": "2025-07-14",
+      "procedure": "2025-07-17",
+      "discharge": "2025-07-25",
+      "note": "2025-07-26"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "2 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-07-16"
+      },
+      {
+        "expr_id": "e2",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 13",
+        "true_anchor": "admission",
+        "true_date": "2025-07-26"
+      },
+      {
+        "expr_id": "e3",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 7",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-24"
+      },
+      {
+        "expr_id": "e4",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 10",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-27"
+      },
+      {
+        "expr_id": "e5",
+        "event": "symptom onset",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 2 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-08-09"
+      },
+      {
+        "expr_id": "e6",
+        "event": "first ambulation",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "1 day after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-07-15"
+      },
+      {
+        "expr_id": "e7",
+        "event": "wound check",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 6",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-23"
+      }
+    ]
+  },
+  {
+    "case_id": "case-017",
+    "anchors": {
+      "admission": "2025-06-27",
+      "procedure": "2025-07-01",
+      "discharge": "2025-07-08",
+      "note": "2025-07-08"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "4 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-07-04"
+      },
+      {
+        "expr_id": "e2",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "ago",
+        "text": "7 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-07-01"
+      },
+      {
+        "expr_id": "e3",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-03"
+      },
+      {
+        "expr_id": "e4",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 13",
+        "true_anchor": "admission",
+        "true_date": "2025-07-09"
+      },
+      {
+        "expr_id": "e5",
+        "event": "consult placed",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 6",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-07"
+      },
+      {
+        "expr_id": "e6",
+        "event": "symptom onset",
+        "section": "history",
+        "kind": "ago",
+        "text": "10 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-06-28"
+      },
+      {
+        "expr_id": "e7",
+        "event": "medication change",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "14 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-07-11"
+      }
+    ]
+  },
+  {
+    "case_id": "case-018",
+    "anchors": {
+      "admission": "2025-07-29",
+      "procedure": "2025-08-04",
+      "discharge": "2025-08-15",
+      "note": "2025-08-17"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-01"
+      },
+      {
+        "expr_id": "e2",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 0",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-04"
+      },
+      {
+        "expr_id": "e3",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 5",
+        "true_anchor": "admission",
+        "true_date": "2025-08-02"
+      },
+      {
+        "expr_id": "e4",
+        "event": "wound check",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 13",
+        "true_anchor": "admission",
+        "true_date": "2025-08-10"
+      },
+      {
+        "expr_id": "e5",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 6",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-10"
+      }
+    ]
+  },
+  {
+    "case_id": "case-019",
+    "anchors": {
+      "admission": "2025-04-24",
+      "procedure": "2025-04-26",
+      "discharge": "2025-05-14",
+      "note": "2025-05-15"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "pain review",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-04-24"
+      },
+      {
+        "expr_id": "e2",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 9",
+        "true_anchor": "admission",
+        "true_date": "2025-05-02"
+      },
+      {
+        "expr_id": "e3",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 4",
+        "true_anchor": "admission",
+        "true_date": "2025-04-27"
+      },
+      {
+        "expr_id": "e4",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "1 day after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-04-25"
+      },
+      {
+        "expr_id": "e5",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-04-30"
+      },
+      {
+        "expr_id": "e6",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 6",
+        "true_anchor": "admission",
+        "true_date": "2025-04-29"
+      },
+      {
+        "expr_id": "e7",
+        "event": "wound check",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 1",
+        "true_anchor": "admission",
+        "true_date": "2025-04-24"
+      }
+    ]
+  },
+  {
+    "case_id": "case-020",
+    "anchors": {
+      "admission": "2025-06-24",
+      "procedure": "2025-06-28",
+      "discharge": "2025-07-01",
+      "note": "2025-07-03"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 4",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-02"
+      },
+      {
+        "expr_id": "e2",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 5",
+        "true_anchor": "admission",
+        "true_date": "2025-06-28"
+      },
+      {
+        "expr_id": "e3",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "ago",
+        "text": "6 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-06-27"
+      },
+      {
+        "expr_id": "e4",
+        "event": "medication change",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "6 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-06-30"
+      },
+      {
+        "expr_id": "e5",
+        "event": "fever onset",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 7",
+        "true_anchor": "procedure",
+        "true_date": "2025-07-05"
+      },
+      {
+        "expr_id": "e6",
+        "event": "pain review",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Wednesday",
+        "true_anchor": "note",
+        "true_date": "2025-07-02"
+      }
+    ]
+  },
+  {
+    "case_id": "case-021",
+    "anchors": {
+      "admission": "2025-09-12",
+      "procedure": "2025-09-22",
+      "discharge": "2025-09-25",
+      "note": "2025-09-25"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 10",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-02"
+      },
+      {
+        "expr_id": "e2",
+        "event": "pain review",
+        "section": "history",
+        "kind": "ago",
+        "text": "7 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-09-18"
+      },
+      {
+        "expr_id": "e3",
+        "event": "wound check",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-09-20"
+      },
+      {
+        "expr_id": "e4",
+        "event": "medication change",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 8",
+        "true_anchor": "admission",
+        "true_date": "2025-09-19"
+      },
+      {
+        "expr_id": "e5",
+        "event": "symptom onset",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-09-20"
+      }
+    ]
+  },
+  {
+    "case_id": "case-022",
+    "anchors": {
+      "admission": "2025-08-09",
+      "procedure": "2025-08-10",
+      "discharge": "2025-08-23",
+      "note": "2025-08-23"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "antibiotic start",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-09"
+      },
+      {
+        "expr_id": "e2",
+        "event": "pain review",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "4 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-08-13"
+      },
+      {
+        "expr_id": "e3",
+        "event": "symptom onset",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 5 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-09-27"
+      },
+      {
+        "expr_id": "e4",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 3",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-13"
+      },
+      {
+        "expr_id": "e5",
+        "event": "imaging study",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 1",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-11"
+      }
+    ]
+  },
+  {
+    "case_id": "case-023",
+    "anchors": {
+      "admission": "2025-10-04",
+      "procedure": "2025-10-07",
+      "discharge": "2025-10-09",
+      "note": "2025-10-10"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "pain review",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-05"
+      },
+      {
+        "expr_id": "e2",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-09"
+      },
+      {
+        "expr_id": "e3",
+        "event": "blood transfusion",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-05"
+      },
+      {
+        "expr_id": "e4",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 3",
+        "true_anchor": "admission",
+        "true_date": "2025-10-06"
+      },
+      {
+        "expr_id": "e5",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 5",
+        "true_anchor": "admission",
+        "true_date": "2025-10-08"
+      },
+      {
+        "expr_id": "e6",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 9",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-16"
+      },
+      {
+        "expr_id": "e7",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Friday",
+        "true_anchor": "note",
+        "true_date": "2025-10-03"
+      }
+    ]
+  },
+  {
+    "case_id": "case-024",
+    "anchors": {
+      "admission": "2025-03-09",
+      "procedure": "2025-03-11",
+      "discharge": "2025-03-14",
+      "note": "2025-03-16"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "wound check",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 21 days",
+        "true_anchor": "note",
+        "true_date": "2025-04-06"
+      },
+      {
+        "expr_id": "e2",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-08"
+      },
+      {
+        "expr_id": "e3",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 5",
+        "true_anchor": "admission",
+        "true_date": "2025-03-13"
+      },
+      {
+        "expr_id": "e4",
+        "event": "imaging study",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 4 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-04-13"
+      },
+      {
+        "expr_id": "e5",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 8",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-19"
+      },
+      {
+        "expr_id": "e6",
+        "event": "medication change",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 30 days",
+        "true_anchor": "note",
+        "true_date": "2025-04-15"
+      }
+    ]
+  },
+  {
+    "case_id": "case-025",
+    "anchors": {
+      "admission": "2025-09-15",
+      "procedure": "2025-09-19",
+      "discharge": "2025-09-27",
+      "note": "2025-09-27"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "wound check",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-09-18"
+      },
+      {
+        "expr_id": "e2",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-09-21"
+      },
+      {
+        "expr_id": "e3",
+        "event": "blood transfusion",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Saturday",
+        "true_anchor": "note",
+        "true_date": "2025-09-20"
+      },
+      {
+        "expr_id": "e4",
+        "event": "antibiotic start",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "17 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-10-14"
+      },
+      {
+        "expr_id": "e5",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Saturday",
+        "true_anchor": "note",
+        "true_date": "2025-09-20"
+      }
+    ]
+  },
+  {
+    "case_id": "case-026",
+    "anchors": {
+      "admission": "2025-10-03",
+      "procedure": "2025-10-15",
+      "discharge": "2025-10-19",
+      "note": "2025-10-20"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 3",
+        "true_anchor": "admission",
+        "true_date": "2025-10-05"
+      },
+      {
+        "expr_id": "e2",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "ago",
+        "text": "14 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-10-06"
+      },
+      {
+        "expr_id": "e3",
+        "event": "medication change",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "14 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-10-17"
+      },
+      {
+        "expr_id": "e4",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 3",
+        "true_anchor": "admission",
+        "true_date": "2025-10-05"
+      },
+      {
+        "expr_id": "e5",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 10",
+        "true_anchor": "admission",
+        "true_date": "2025-10-12"
+      }
+    ]
+  },
+  {
+    "case_id": "case-027",
+    "anchors": {
+      "admission": "2025-01-14",
+      "procedure": "2025-01-16",
+      "discharge": "2025-01-26",
+      "note": "2025-01-28"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "7 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-01-21"
+      },
+      {
+        "expr_id": "e2",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "ago",
+        "text": "2 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-01-26"
+      },
+      {
+        "expr_id": "e3",
+        "event": "medication change",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "20 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-02-15"
+      },
+      {
+        "expr_id": "e4",
+        "event": "first ambulation",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 6",
+        "true_anchor": "procedure",
+        "true_date": "2025-01-22"
+      },
+      {
+        "expr_id": "e5",
+        "event": "pain review",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "14 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-02-09"
+      },
+      {
+        "expr_id": "e6",
+        "event": "antibiotic start",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 10",
+        "true_anchor": "admission",
+        "true_date": "2025-01-23"
+      },
+      {
+        "expr_id": "e7",
+        "event": "wound check",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "11 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-02-06"
+      },
+      {
+        "expr_id": "e8",
+        "event": "blood transfusion",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "3 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-01-29"
+      }
+    ]
+  },
+  {
+    "case_id": "case-028",
+    "anchors": {
+      "admission": "2025-08-09",
+      "procedure": "2025-08-10",
+      "discharge": "2025-08-22",
+      "note": "2025-08-22"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-08"
+      },
+      {
+        "expr_id": "e2",
+        "event": "consult placed",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 4 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-09-19"
+      },
+      {
+        "expr_id": "e3",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 6",
+        "true_anchor": "admission",
+        "true_date": "2025-08-14"
+      },
+      {
+        "expr_id": "e4",
+        "event": "medication change",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Thursday",
+        "true_anchor": "note",
+        "true_date": "2025-08-21"
+      },
+      {
+        "expr_id": "e5",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 10",
+        "true_anchor": "admission",
+        "true_date": "2025-08-18"
+      },
+      {
+        "expr_id": "e6",
+        "event": "antibiotic start",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 3",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-13"
+      }
+    ]
+  },
+  {
+    "case_id": "case-029",
+    "anchors": {
+      "admission": "2025-10-04",
+      "procedure": "2025-10-21",
+      "discharge": "2025-10-25",
+      "note": "2025-10-27"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "fever onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "8 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-11-02"
+      },
+      {
+        "expr_id": "e2",
+        "event": "medication change",
+        "section": "history",
+        "kind": "ago",
+        "text": "7 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-10-20"
+      },
+      {
+        "expr_id": "e3",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-18"
+      },
+      {
+        "expr_id": "e4",
+        "event": "first ambulation",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 1",
+        "true_anchor": "procedure",
+        "true_date": "2025-10-22"
+      },
+      {
+        "expr_id": "e5",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "13 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-10-14"
+      },
+      {
+        "expr_id": "e6",
+        "event": "imaging study",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 18 days",
+        "true_anchor": "note",
+        "true_date": "2025-11-14"
+      },
+      {
+        "expr_id": "e7",
+        "event": "wound check",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Tuesday",
+        "true_anchor": "note",
+        "true_date": "2025-10-21"
+      },
+      {
+        "expr_id": "e8",
+        "event": "symptom onset",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Monday",
+        "true_anchor": "note",
+        "true_date": "2025-10-20"
+      }
+    ]
+  },
+  {
+    "case_id": "case-030",
+    "anchors": {
+      "admission": "2025-02-04",
+      "procedure": "2025-02-13",
+      "discharge": "2025-02-23",
+      "note": "2025-02-24"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "first ambulation",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 0",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-13"
+      },
+      {
+        "expr_id": "e2",
+        "event": "blood transfusion",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Tuesday",
+        "true_anchor": "note",
+        "true_date": "2025-02-18"
+      },
+      {
+        "expr_id": "e3",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "ago",
+        "text": "5 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-02-19"
+      },
+      {
+        "expr_id": "e4",
+        "event": "medication change",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-02-12"
+      },
+      {
+        "expr_id": "e5",
+        "event": "suture removal",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 5 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-03-31"
+      }
+    ]
+  },
+  {
+    "case_id": "case-031",
+    "anchors": {
+      "admission": "2025-08-21",
+      "procedure": "2025-08-22",
+      "discharge": "2025-08-31",
+      "note": "2025-08-31"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "fever onset",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 5 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-10-05"
+      },
+      {
+        "expr_id": "e2",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-19"
+      },
+      {
+        "expr_id": "e3",
+        "event": "consult placed",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 12 days",
+        "true_anchor": "note",
+        "true_date": "2025-09-12"
+      },
+      {
+        "expr_id": "e4",
+        "event": "first ambulation",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 28 days",
+        "true_anchor": "note",
+        "true_date": "2025-09-28"
+      },
+      {
+        "expr_id": "e5",
+        "event": "medication change",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 4",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-26"
+      }
+    ]
+  },
+  {
+    "case_id": "case-032",
+    "anchors": {
+      "admission": "2025-02-21",
+      "procedure": "2025-02-24",
+      "discharge": "2025-02-28",
+      "note": "2025-03-02"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 2",
+        "true_anchor": "admission",
+        "true_date": "2025-02-22"
+      },
+      {
+        "expr_id": "e2",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 7",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-03"
+      },
+      {
+        "expr_id": "e3",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 6",
+        "true_anchor": "admission",
+        "true_date": "2025-02-26"
+      },
+      {
+        "expr_id": "e4",
+        "event": "drain removal",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 9",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-05"
+      },
+      {
+        "expr_id": "e5",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-02-27"
+      },
+      {
+        "expr_id": "e6",
+        "event": "symptom onset",
+        "section": "history",
+        "kind": "ago",
+        "text": "12 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-02-18"
+      }
+    ]
+  },
+  {
+    "case_id": "case-033",
+    "anchors": {
+      "admission": "2025-05-14",
+      "procedure": "2025-05-17",
+      "discharge": "2025-06-01",
+      "note": "2025-06-02"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 9",
+        "true_anchor": "procedure",
+        "true_date": "2025-05-26"
+      },
+      {
+        "expr_id": "e2",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "5 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-05-19"
+      },
+      {
+        "expr_id": "e3",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-05-19"
+      },
+      {
+        "expr_id": "e4",
+        "event": "blood transfusion",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "10 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-05-24"
+      },
+      {
+        "expr_id": "e5",
+        "event": "drain removal",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 6 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-07-14"
+      }
+    ]
+  },
+  {
+    "case_id": "case-034",
+    "anchors": {
+      "admission": "2025-04-11",
+      "procedure": "2025-04-14",
+      "discharge": "2025-04-16",
+      "note": "2025-04-17"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "drain removal",
+        "section": "history",
+        "kind": "ago",
+        "text": "14 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-04-03"
+      },
+      {
+        "expr_id": "e2",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 6",
+        "true_anchor": "admission",
+        "true_date": "2025-04-16"
+      },
+      {
+        "expr_id": "e3",
+        "event": "medication change",
+        "section": "history",
+        "kind": "ago",
+        "text": "11 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-04-06"
+      },
+      {
+        "expr_id": "e4",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Thursday",
+        "true_anchor": "note",
+        "true_date": "2025-04-10"
+      },
+      {
+        "expr_id": "e5",
+        "event": "antibiotic start",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 10",
+        "true_anchor": "admission",
+        "true_date": "2025-04-20"
+      },
+      {
+        "expr_id": "e6",
+        "event": "symptom onset",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 1",
+        "true_anchor": "procedure",
+        "true_date": "2025-04-15"
+      },
+      {
+        "expr_id": "e7",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-04-17"
+      },
+      {
+        "expr_id": "e8",
+        "event": "first ambulation",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "5 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-04-16"
+      }
+    ]
+  },
+  {
+    "case_id": "case-035",
+    "anchors": {
+      "admission": "2025-03-02",
+      "procedure": "2025-03-12",
+      "discharge": "2025-03-22",
+      "note": "2025-03-23"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "fever onset",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 3",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-15"
+      },
+      {
+        "expr_id": "e2",
+        "event": "imaging study",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 3",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-15"
+      },
+      {
+        "expr_id": "e3",
+        "event": "symptom onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "9 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-03-31"
+      },
+      {
+        "expr_id": "e4",
+        "event": "antibiotic start",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-10"
+      },
+      {
+        "expr_id": "e5",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 4",
+        "true_anchor": "procedure",
+        "true_date": "2025-03-16"
+      }
+    ]
+  },
+  {
+    "case_id": "case-036",
+    "anchors": {
+      "admission": "2025-05-20",
+      "procedure": "2025-05-28",
+      "discharge": "2025-06-03",
+      "note": "2025-06-03"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 4",
+        "true_anchor": "admission",
+        "true_date": "2025-05-23"
+      },
+      {
+        "expr_id": "e2",
+        "event": "wound check",
+        "section": "history",
+        "kind": "after_admission",
+        "text": "3 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-05-23"
+      },
+      {
+        "expr_id": "e3",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-05-25"
+      },
+      {
+        "expr_id": "e4",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "ago",
+        "text": "9 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-05-25"
+      },
+      {
+        "expr_id": "e5",
+        "event": "pain review",
+        "section": "operative",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-05-25"
+      }
+    ]
+  },
+  {
+    "case_id": "case-037",
+    "anchors": {
+      "admission": "2025-08-12",
+      "procedure": "2025-08-27",
+      "discharge": "2025-08-30",
+      "note": "2025-09-01"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "consult placed",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "the day before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-26"
+      },
+      {
+        "expr_id": "e2",
+        "event": "pain review",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Sunday",
+        "true_anchor": "note",
+        "true_date": "2025-08-31"
+      },
+      {
+        "expr_id": "e3",
+        "event": "wound check",
+        "section": "history",
+        "kind": "ago",
+        "text": "12 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-08-20"
+      },
+      {
+        "expr_id": "e4",
+        "event": "drain removal",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "7 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-09-06"
+      },
+      {
+        "expr_id": "e5",
+        "event": "medication change",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 2",
+        "true_anchor": "procedure",
+        "true_date": "2025-08-29"
+      },
+      {
+        "expr_id": "e6",
+        "event": "imaging study",
+        "section": "history",
+        "kind": "ago",
+        "text": "7 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-08-25"
+      },
+      {
+        "expr_id": "e7",
+        "event": "symptom onset",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 11",
+        "true_anchor": "admission",
+        "true_date": "2025-08-22"
+      }
+    ]
+  },
+  {
+    "case_id": "case-038",
+    "anchors": {
+      "admission": "2025-10-04",
+      "procedure": "2025-10-05",
+      "discharge": "2025-10-15",
+      "note": "2025-10-16"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "symptom onset",
+        "section": "history",
+        "kind": "ago",
+        "text": "14 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-10-02"
+      },
+      {
+        "expr_id": "e2",
+        "event": "suture removal",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 10",
+        "true_anchor": "admission",
+        "true_date": "2025-10-13"
+      },
+      {
+        "expr_id": "e3",
+        "event": "wound check",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 9",
+        "true_anchor": "admission",
+        "true_date": "2025-10-12"
+      },
+      {
+        "expr_id": "e4",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "bare_day",
+        "text": "on day 4",
+        "true_anchor": "admission",
+        "true_date": "2025-10-07"
+      },
+      {
+        "expr_id": "e5",
+        "event": "pain review",
+        "section": "history",
+        "kind": "ago",
+        "text": "4 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-10-12"
+      }
+    ]
+  },
+  {
+    "case_id": "case-039",
+    "anchors": {
+      "admission": "2025-04-27",
+      "procedure": "2025-04-30",
+      "discharge": "2025-05-11",
+      "note": "2025-05-11"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "pain review",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 6 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-06-22"
+      },
+      {
+        "expr_id": "e2",
+        "event": "imaging study",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 5 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-06-15"
+      },
+      {
+        "expr_id": "e3",
+        "event": "medication change",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Wednesday",
+        "true_anchor": "note",
+        "true_date": "2025-05-07"
+      },
+      {
+        "expr_id": "e4",
+        "event": "symptom onset",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-04-28"
+      },
+      {
+        "expr_id": "e5",
+        "event": "drain removal",
+        "section": "operative",
+        "kind": "post_op_day",
+        "text": "post-op day 1",
+        "true_anchor": "procedure",
+        "true_date": "2025-05-01"
+      },
+      {
+        "expr_id": "e6",
+        "event": "wound check",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "2 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-04-28"
+      },
+      {
+        "expr_id": "e7",
+        "event": "blood transfusion",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 4 weeks",
+        "true_anchor": "note",
+        "true_date": "2025-06-08"
+      },
+      {
+        "expr_id": "e8",
+        "event": "consult placed",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 9",
+        "true_anchor": "procedure",
+        "true_date": "2025-05-09"
+      }
+    ]
+  },
+  {
+    "case_id": "case-040",
+    "anchors": {
+      "admission": "2025-01-08",
+      "procedure": "2025-01-12",
+      "discharge": "2025-01-16",
+      "note": "2025-01-16"
+    },
+    "expressions": [
+      {
+        "expr_id": "e1",
+        "event": "symptom onset",
+        "section": "discharge_plan",
+        "kind": "after_discharge",
+        "text": "16 days after discharge",
+        "true_anchor": "discharge",
+        "true_date": "2025-02-01"
+      },
+      {
+        "expr_id": "e2",
+        "event": "antibiotic start",
+        "section": "history",
+        "kind": "before_surgery",
+        "text": "3 days before surgery",
+        "true_anchor": "procedure",
+        "true_date": "2025-01-09"
+      },
+      {
+        "expr_id": "e3",
+        "event": "suture removal",
+        "section": "history",
+        "kind": "weekday",
+        "text": "since last Sunday",
+        "true_anchor": "note",
+        "true_date": "2025-01-12"
+      },
+      {
+        "expr_id": "e4",
+        "event": "first ambulation",
+        "section": "discharge_plan",
+        "kind": "follow_up",
+        "text": "in 30 days",
+        "true_anchor": "note",
+        "true_date": "2025-02-15"
+      },
+      {
+        "expr_id": "e5",
+        "event": "medication change",
+        "section": "history",
+        "kind": "ago",
+        "text": "12 days ago",
+        "true_anchor": "note",
+        "true_date": "2025-01-04"
+      },
+      {
+        "expr_id": "e6",
+        "event": "blood transfusion",
+        "section": "hospital_course",
+        "kind": "post_op_day",
+        "text": "post-op day 6",
+        "true_anchor": "procedure",
+        "true_date": "2025-01-18"
+      },
+      {
+        "expr_id": "e7",
+        "event": "drain removal",
+        "section": "hospital_course",
+        "kind": "after_admission",
+        "text": "8 days after admission",
+        "true_anchor": "admission",
+        "true_date": "2025-01-16"
+      },
+      {
+        "expr_id": "e8",
+        "event": "pain review",
+        "section": "hospital_course",
+        "kind": "hospital_day",
+        "text": "hospital day 7",
+        "true_anchor": "admission",
+        "true_date": "2025-01-14"
+      }
+    ]
+  }
+]
